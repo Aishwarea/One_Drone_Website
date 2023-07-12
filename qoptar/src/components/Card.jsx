@@ -7,8 +7,11 @@ export const Card = (props) => {
         {props.imgSrc && props.imgAlt && (
         <img src={props.imgSrc} alt={props.imgAlt} className="CardImg"/>
         )}
+        <br/>
         {props.title && <h1 className="CardTitle">{props.title}</h1>}
+        <br/>
         {props.description && <p className="CardDescription">{props.description}</p>}
+        <br/>
     </div>
     );
 };

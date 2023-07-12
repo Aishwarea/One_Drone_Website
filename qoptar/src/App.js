@@ -7,8 +7,8 @@ import Image3 from './images/image3.jpg';
 function App() {
   return (
     <div>
-      <div>
-        <h1 font-style={'Poppins'}>Qoptar</h1>
+      <div className='Title'>
+        <br/><h1>OneDrone Highlights</h1><br/>
       </div>
     <div className='App'>
       <Card  

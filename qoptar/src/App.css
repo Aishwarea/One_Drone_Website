@@ -1,3 +1,17 @@
+@keyframes SlideLeft {
+  from{
+    transform: translateX(-300px);
+  }
+  to{
+    transform: translateX(0px);
+  }
+}  
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 .App {
   display: flex;
   flex-direction: row;
@@ -5,9 +19,26 @@
   justify-content: center;
   gap: 1rem;
   height: fit-content;
-  background-color: #faf6f9;
+  width: 100%;
+  background-color: #333333;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 *{
-  background-color: #faf6f9;
-  font-size: 5 rem;
+  background-color: #333333;
+}
+.Title{
+  font-size: 2.5rem;
+  font-family: 'Poppins';
+  padding-bottom: 5 rem;
+  text-align: center;
+  color: aquamarine;
+  
+  animation-name: SlideLeft;
+  animation-duration: 1s;
+  animation-timing-function: ease-in;
+  animation-delay: 0s;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+  animation-fill-mode: none;
 }

@@ -9,7 +9,7 @@ function App() {
     <div>
       <div className="Title">
         <br />
-        <h1>OneDrone Highlights</h1>
+        <h2>OneDrone Highlights</h2>
         <br />
       </div>
       <div className="App">
